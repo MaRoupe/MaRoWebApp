@@ -1,0 +1,17 @@
+﻿@font-face {
+  font-family: 'Open Sans';
+  src: url("assets/fonts/OpenSans-Regular.woff") format("woff"); }
+
+body {
+  font-family: 'Open Sans'; }
+
+a {
+  color: #0f388e; }
+
+code {
+  color: #e01a76; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac; }

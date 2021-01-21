@@ -1,8 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'assets/css/_variables.scss';
 
-/* Provide sufficient contrast against white background */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('assets/fonts/OpenSans-Regular.woff') format('woff');
+}
+
+body{
+    font-family: 'Open Sans';
+}
+
 a {
-  color: #0366d6;
+  color: $a-link-notvisited;
 }
 
 code {
